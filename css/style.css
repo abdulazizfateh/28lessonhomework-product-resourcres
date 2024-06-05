@@ -265,9 +265,6 @@
     width: 100%;
     margin-bottom: 24px;
   }
-  .hero-section .hero-section-wrapper .hero-left .hero-join .hero-join-item {
-    flex-wrap: wrap;
-  }
   .hero-section .hero-section-wrapper .hero-right {
     width: 90%;
     justify-content: center;
@@ -278,122 +275,19 @@
 }
 @media screen and (max-width: 760px) {
   .hero-section {
-    background-color: rgb(18, 85, 42);
-    padding: 100px 0;
+    padding: 20px 0;
   }
   .hero-section .hero-section-wrapper {
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-  .hero-section .hero-section-wrapper .hero-left {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    background-color: aquamarine;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-left-title {
-    width: 70%;
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 199%;
-    letter-spacing: -3%;
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-left-text {
-    width: 79%;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 160%;
-    letter-spacing: 1.2px;
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper {
-    padding: 0 0 0 10%;
-    background-color: rgb(164, 164, 30);
-    margin: 0 auto;
-    width: 100%;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form {
-    background-color: rgb(21, 75, 75);
-    width: 100%;
-    margin-bottom: 24px;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label {
-    background-color: aqua;
+    gap: 10px;
   }
   .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-input-name {
-    width: 500px;
-    padding: 25px 0 25px 25px;
-    box-sizing: border-box;
-    border: 1px solid rgb(234, 234, 234);
-    border-radius: 100px;
-    position: relative;
-    background-color: rgb(214, 224, 32);
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-input-name::-moz-placeholder {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-input-name::placeholder {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
+    width: 600px;
+    text-align: center;
   }
   .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-form-btn {
     display: none;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 0px;
-    width: 31%;
-    padding: 24px 0;
-    border-radius: 100px;
-    background: rgb(2, 137, 122);
-    position: relative;
-    border: none;
-    right: 110px;
   }
   .hero-section .hero-section-wrapper .hero-left .hero-join {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    margin-bottom: 24px;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-join .hero-join-item {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .hero-section .hero-section-wrapper .hero-left .hero-join .hero-join-text {
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-  }
-  .hero-section .hero-section-wrapper .hero-right {
-    width: 90%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-  }
-  .hero-section .hero-section-wrapper .hero-right img {
-    width: 90%;
   }
 }
