@@ -318,10 +318,7 @@
 }
 .story-section {
   padding: 113px 0 218px;
-  background-color: rgb(20, 100, 100);
-}
-.story-section .story-section-wrapper {
-  background-color: rgb(20, 100, 100);
+  background-color: rgb(31, 46, 53);
 }
 .story-section .story-section-wrapper .story-title-text {
   display: flex;
