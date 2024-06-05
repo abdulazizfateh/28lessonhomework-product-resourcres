@@ -461,9 +461,10 @@
   }
   .contact-section .contact-section-wrapper .contact-title-text .contact-text {
     width: 90%;
-    margin-bottom: 25px;
+    margin: 0 auto;
   }
   .contact-section .contact-section-wrapper .contact-social-list {
+    margin-top: 20px;
     margin-bottom: 30px;
   }
   .contact-section .contact-section-wrapper .contact-img {
