@@ -166,16 +166,55 @@
 
 @media screen and (max-width:760px) {
     .hero-section {
-        padding: 20px 0;
+        padding: 40px 0;
 
         .hero-section-wrapper {
             gap: 10px;
 
             .hero-left {
+                padding: 10px;
+
                 .hero-form-wrapper {
                     .hero-form {
                         label {
                             .hero-input-name {
+                                width: 600px;
+                                text-align: center;
+                            }
+
+                            .hero-form-btn {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .hero-join {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:420px) {
+    .hero-section {
+        padding: 40px 0;
+
+        .hero-section-wrapper {
+            gap: 10px;
+
+            .hero-left {
+                padding: 10px;
+
+                .hero-form-wrapper {
+                    .hero-form {
+                        label {
+                            .hero-input-name {
+                                padding: 15px;
                                 width: 600px;
                                 text-align: center;
                             }

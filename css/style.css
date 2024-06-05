@@ -275,10 +275,13 @@
 }
 @media screen and (max-width: 760px) {
   .hero-section {
-    padding: 20px 0;
+    padding: 40px 0;
   }
   .hero-section .hero-section-wrapper {
     gap: 10px;
+  }
+  .hero-section .hero-section-wrapper .hero-left {
+    padding: 10px;
   }
   .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-input-name {
     width: 600px;
@@ -289,5 +292,224 @@
   }
   .hero-section .hero-section-wrapper .hero-left .hero-join {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hero-section {
+    padding: 40px 0;
+  }
+  .hero-section .hero-section-wrapper {
+    gap: 10px;
+  }
+  .hero-section .hero-section-wrapper .hero-left {
+    padding: 10px;
+  }
+  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-input-name {
+    padding: 15px;
+    width: 600px;
+    text-align: center;
+  }
+  .hero-section .hero-section-wrapper .hero-left .hero-form-wrapper .hero-form label .hero-form-btn {
+    display: none;
+  }
+  .hero-section .hero-section-wrapper .hero-left .hero-join {
+    justify-content: center;
+  }
+}
+.story-section {
+  padding: 113px 0 218px;
+  background-color: rgb(20, 100, 100);
+}
+.story-section .story-section-wrapper {
+  background-color: rgb(20, 100, 100);
+}
+.story-section .story-section-wrapper .story-title-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.story-section .story-section-wrapper .story-title-text .story-title {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  margin-bottom: 8px;
+}
+.story-section .story-section-wrapper .story-title-text .story-text {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.story-section .story-section-wrapper .story-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.story-section .story-section-wrapper .story-cards .story-card {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.story-section .story-section-wrapper .story-cards .story-card img {
+  width: 348px;
+  height: 187px;
+}
+.story-section .story-section-wrapper .story-cards .story-card .story-card-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 22px 24px 40px 24px;
+}
+.story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-info {
+  color: rgb(34, 52, 61);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-text {
+  width: 294px;
+  color: rgb(34, 52, 61);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 860px) {
+  .story-section {
+    padding: 113px 0 218px;
+    background-color: rgb(20, 100, 100);
+  }
+  .story-section .story-section-wrapper {
+    background-color: rgb(20, 100, 100);
+  }
+  .story-section .story-section-wrapper .story-title-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .story-section .story-section-wrapper .story-title-text .story-title {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-bottom: 8px;
+  }
+  .story-section .story-section-wrapper .story-title-text .story-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .story-section .story-section-wrapper .story-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card img {
+    width: 348px;
+    height: 187px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 22px 24px 40px 24px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-info {
+    color: rgb(34, 52, 61);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-text {
+    width: 294px;
+    color: rgb(34, 52, 61);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .story-section {
+    padding: 50px 0 78px;
+    background-color: rgb(20, 100, 100);
+  }
+  .story-section .story-section-wrapper {
+    background-color: rgb(20, 100, 100);
+  }
+  .story-section .story-section-wrapper .story-title-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .story-section .story-section-wrapper .story-title-text .story-title {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-bottom: 8px;
+  }
+  .story-section .story-section-wrapper .story-title-text .story-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .story-section .story-section-wrapper .story-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card img {
+    width: 348px;
+    height: 187px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 22px 24px 40px 24px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-info {
+    color: rgb(34, 52, 61);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-text {
+    width: 80%;
+    color: rgb(34, 52, 61);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
   }
 }
