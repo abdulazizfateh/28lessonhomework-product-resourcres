@@ -375,139 +375,102 @@
 }
 
 @media screen and (max-width: 860px) {
-  .story-section {
-    padding: 113px 0 218px;
-    background-color: rgb(20, 100, 100);
-  }
-  .story-section .story-section-wrapper {
-    background-color: rgb(20, 100, 100);
-  }
-  .story-section .story-section-wrapper .story-title-text {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 32px;
-  }
-  .story-section .story-section-wrapper .story-title-text .story-title {
-    color: rgb(255, 255, 255);
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 51px;
-    margin-bottom: 8px;
-  }
-  .story-section .story-section-wrapper .story-title-text .story-text {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-  }
-  .story-section .story-section-wrapper .story-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 32px;
-  }
   .story-section .story-section-wrapper .story-cards .story-card {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 70%;
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-    overflow: hidden;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card img {
-    width: 348px;
-    height: 187px;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card .story-card-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 22px 24px 40px 24px;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-info {
-    color: rgb(34, 52, 61);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-text {
-    width: 294px;
-    color: rgb(34, 52, 61);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
   }
 }
 @media screen and (max-width: 540px) {
   .story-section {
     padding: 50px 0 78px;
-    background-color: rgb(20, 100, 100);
-  }
-  .story-section .story-section-wrapper {
-    background-color: rgb(20, 100, 100);
-  }
-  .story-section .story-section-wrapper .story-title-text {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 32px;
-  }
-  .story-section .story-section-wrapper .story-title-text .story-title {
-    color: rgb(255, 255, 255);
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 51px;
-    margin-bottom: 8px;
   }
   .story-section .story-section-wrapper .story-title-text .story-text {
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-  }
-  .story-section .story-section-wrapper .story-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 32px;
   }
   .story-section .story-section-wrapper .story-cards .story-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     width: 100%;
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-    overflow: hidden;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card img {
-    width: 348px;
-    height: 187px;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card .story-card-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 22px 24px 40px 24px;
-  }
-  .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-info {
-    color: rgb(34, 52, 61);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
   }
   .story-section .story-section-wrapper .story-cards .story-card .story-card-content .story-card-text {
     width: 80%;
-    color: rgb(34, 52, 61);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
+  }
+}
+.contact-section {
+  padding: 0 0 50px 0;
+  background: rgb(31, 46, 53);
+}
+.contact-section .contact-section-wrapper .contact-title-text .contact-title {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+.contact-section .contact-section-wrapper .contact-title-text .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.contact-section .contact-section-wrapper .contact-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 66px;
+}
+.contact-section .contact-section-wrapper .contact-social-list .contact-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(237, 255, 252);
+  list-style: none;
+}
+.contact-section .contact-section-wrapper .contact-social-list .contact-social-item:hover {
+  background-color: rgb(182, 255, 243);
+}
+.contact-section .contact-section-wrapper .contact-social-list .contact-social-item a {
+  text-decoration: none;
+}
+.contact-section .contact-section-wrapper .contact-img {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 955px) {
+  .contact-section .contact-section-wrapper .contact-title-text .contact-title {
+    margin-bottom: 20px;
+  }
+  .contact-section .contact-section-wrapper .contact-title-text .contact-text {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .contact-section .contact-section-wrapper .contact-social-list {
+    margin-bottom: 30px;
+  }
+  .contact-section .contact-section-wrapper .contact-img {
+    margin: 0 auto;
+  }
+  .contact-section .contact-section-wrapper .contact-img img {
+    width: 80%;
   }
 }
 .site-footer {
